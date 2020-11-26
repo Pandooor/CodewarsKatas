@@ -17,4 +17,18 @@ public class SolutionTest {
         assertArrayEquals(new int[]{4, 18, 0, 32}, AmazonCheckmate.amazonCheckmate("f3", "c1"));
         assertArrayEquals(new int[]{0, 18, 0, 36}, AmazonCheckmate.amazonCheckmate("d4", "h8"));
     }
+
+    @Test
+    public void testRefactored() {
+        assertArrayEquals(new int[]{0, 29, 1, 29}, AmazonCheckmateRefactored.amazonCheckmate("a1", "g5"));
+        assertArrayEquals(new int[]{1, 32, 1, 23}, AmazonCheckmateRefactored.amazonCheckmate("a3", "e4"));
+        assertArrayEquals(new int[]{6, 11, 0, 38}, AmazonCheckmateRefactored.amazonCheckmate("f3", "f2"));
+        assertArrayEquals(new int[]{0, 10, 0, 45}, AmazonCheckmateRefactored.amazonCheckmate("b7", "a8"));
+        assertArrayEquals(new int[]{4, 28, 1, 21}, AmazonCheckmateRefactored.amazonCheckmate("f7", "d3"));
+        assertArrayEquals(new int[]{9, 21, 0, 24}, AmazonCheckmateRefactored.amazonCheckmate("g2", "c3"));
+        assertArrayEquals(new int[]{4, 18, 0, 32}, AmazonCheckmateRefactored.amazonCheckmate("f3", "c1"));
+        assertArrayEquals(new int[]{0, 18, 0, 36}, AmazonCheckmateRefactored.amazonCheckmate("d4", "h8"));
+    }
+
+
 }
