@@ -1,3 +1,5 @@
+package de.liebig.codeWars.oldKatas;
+
 public class MaximumSubarraySum {
     public static int sequence(int[] arr) {
         if (arr.length == 0) {

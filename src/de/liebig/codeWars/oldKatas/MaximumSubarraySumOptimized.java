@@ -1,3 +1,5 @@
+package de.liebig.codeWars.oldKatas;
+
 public class MaximumSubarraySumOptimized {
     public static int sequence(int[] arr) {
         int max_ending_here = 0, max_so_far = 0;

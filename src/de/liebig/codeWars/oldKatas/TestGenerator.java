@@ -1,6 +1,9 @@
+package de.liebig.codeWars.oldKatas;
+
+import de.liebig.codeWars.oldKatas.MaximumSubarraySum;
+
 import java.util.Arrays;
 import java.util.Random;
-import java.util.concurrent.ThreadLocalRandom;
 
 public class TestGenerator {
     public static void main(String[] args) {
@@ -18,7 +21,7 @@ public class TestGenerator {
             String generatedName = "testExampleArray0" + x +"a";
             System.out.println("@Test");
             System.out.println("public void " + generatedName + "() throws Exception {");
-            System.out.println("assertEquals(" + expectedMax + ", MaximumSubarraySumOptimized.sequence(new int[]{" + valuesString + "}));");
+            System.out.println("assertEquals(" + expectedMax + ", de.liebig.codeWars.oldKatas.MaximumSubarraySumOptimized.sequence(new int[]{" + valuesString + "}));");
             System.out.println("}");
         }
     }
