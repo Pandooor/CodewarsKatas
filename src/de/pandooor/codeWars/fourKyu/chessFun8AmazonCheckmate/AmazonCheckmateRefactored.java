@@ -11,10 +11,12 @@ public class AmazonCheckmateRefactored {
 }
 
 class Field {
-    public char pieceOnField = '0';
+    public char pieceOnField = '0'; //Amazon -> A, King -> K
     public Field[] neighbors;
     public boolean underAttack = false;
     public boolean hiddenBehindOtherPiece = false;
+    public boolean blockedByKing = false; //shows k
+
 
 
 
